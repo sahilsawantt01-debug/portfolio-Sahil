@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sahil Sawant — Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="#home" class="nav-brand">sahil<span>.</span>dev</a>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMobile">menu</button>
+  </div>
+</nav>
+
+<div class="nav-mobile" id="navMobile">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#certificates">Certificates</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- Hero -->
+<section id="home" class="hero">
+  <div class="hero-grid"></div>
+  <div class="wrap">
+    <div>
+      <div class="eyebrow-line">Personal portfolio</div>
+      <h1>Hello, I'm Sahil Sawant</h1>
+      <div class="hero-role"><span id="roleText"></span><span class="caret"></span></div>
+      <p class="lead">
+        BCA graduate building full stack web development with MERN Stack skills at Fortune
+        Cloud, Pune. SQL, HTML, CSS, JavaScript, Bootstrap, C: done. Node.js: learning.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View my work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <img src="./img/profile.jpeg" alt="Sahil Sawant">
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about">
+  <div class="wrap">
+    <div class="section-head"><span class="tick"></span><h2>About me</h2></div>
+    <div class="about">
+      <p>
+        I am a BCA graduate currently learning full stack web development at
+        Fortune Cloud, Pune. I have completed SQL and I am currently learning
+        HTML, CSS, JavaScript and Bootstrap.
+      </p>
+      <p>
+        I enjoy learning new technologies and applying my knowledge through
+        practical projects. My goal is to improve my technical skills and
+        build useful, user-friendly web applications.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+  <div class="wrap">
+    <div class="section-head"><span class="tick"></span><h2>My skills</h2></div>
+    <div class="spec-grid">
+
+      <div class="spec-card">
+        <span class="spec-tag">DB</span>
+        <h3>SQL</h3>
+        <p>Database queries, tables and SQL concepts.</p>
+      </div>
+
+      <div class="spec-card">
+        <span class="spec-tag">MARKUP</span>
+        <h3>HTML</h3>
+        <p>Creating structured and semantic web pages.</p>
+      </div>
+
+      <div class="spec-card">
+        <span class="spec-tag">STYLE</span>
+        <h3>CSS</h3>
+        <p>Styling web pages using selectors and layouts.</p>
+      </div>
+
+      <div class="spec-card">
+        <span class="spec-tag">LOGIC</span>
+        <h3>JavaScript</h3>
+        <p>Learning JavaScript basics and programming concepts.</p>
+      </div>
+
+      <div class="spec-card">
+        <span class="spec-tag">UI KIT</span>
+        <h3>Bootstrap</h3>
+        <p>Creating responsive layouts using Bootstrap classes.</p>
+      </div>
+
+      <div class="spec-card">
+        <span class="spec-tag">Programming</span>
+        <h3>C</h3>
+        <p>Learning programming fundamentals, control statemnt, function, array, strings and core C concepts.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head"><span class="tick"></span><h2>My projects</h2></div>
+    <div class="project-card">
+      <h3>Personal Portfolio Website</h3>
+      <p>
+        A responsive personal portfolio website built using HTML, CSS, JavaScript and Bootstrap.
+      </p>
+      <P><strong>Technologies:</strong> HTML, CSS, Javascript, Bootstrap</P>
+      <a href="https://sahilsawantt01-debug.github.io/pairperfection/." class="btn btn-primary">View Project</a>
+    </div>
+  </div>
+</section>
+
+<!-- Certificates -->
+<section id="certificates">
+  <div class="wrap">
+    <div class="section-head"><span class="tick"></span><h2>Certificates</h2></div>
+    <div class="cert-grid">
+
+      <div class="cert-card">
+        <h3>Introduction to Data Science</h3>
+        <div class="issuer">Cisco Networking Academy</div>
+        <a href="./img/intro-to-data-science.pdf" class="btn btn-primary" target="_blank">View certificate</a>
+      </div>
+
+      <div class="cert-card">
+        <h3>Cyber Job Simulation</h3>
+        <div class="issuer">Deloitte</div>
+        <a href="./img/deloitte-cyber-certificate.pdf" class="btn btn-primary" target="_blank">View certificate</a>
+      </div>
+
+      <div class="cert-card">
+        <h3>Web Development</h3>
+        <div class="issuer">Disha Institute</div>
+        <div class="cert-pending">Certificate available on request</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <div class="wrap">
+    <div class="section-head"><span class="tick"></span><h2>Contact</h2></div>
+
+    <div class="title-block">
+      <div class="title-block-row">
+        <div class="tb-cell">
+          <span class="tb-label">Name</span>
+          <span class="tb-value">Sahil Sawant</span>
+        </div>
+        <div class="tb-cell">
+          <span class="tb-label">Status</span>
+          <span class="tb-status">Open to full stack / fresher roles</span>
+        </div>
+      </div>
+      <div class="title-block-row">
+        <div class="tb-cell">
+          <span class="tb-label">Email</span>
+          <span class="tb-value"><a href="mailto:sahilsawantt01@gmail.com">sahilsawantt01@gmail.com</a></span>
+        </div>
+        <div class="tb-cell">
+          <span class="tb-label">LinkedIn</span>
+          <span class="tb-value"><a href="https://www.linkedin.com/in/sahil-sawant-ab3767399/" target="_blank">Sahil Sawant</a></span>
+        </div>
+      </div>
+      <div class="title-block-row">
+        <div class="tb-cell">
+          <span class="tb-label">GitHub</span>
+          <span class="tb-value"><a href="https://github.com/sahilsawantt01-debug" target="_blank">Sahil Sawant</a></span>
+        </div>
+        <div class="tb-cell">
+          <span class="tb-label">Based in</span>
+          <span class="tb-value">Pune, India</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Sahil Sawant. All rights reserved.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
