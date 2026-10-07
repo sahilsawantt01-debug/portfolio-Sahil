@@ -21,7 +21,7 @@ navMobile.querySelectorAll("a").forEach((link) => {
 // ---------------------------------------------------------------------------
 const roles = [
   "Full Stack Web Development Learner",
-  "SQL, HTML, CSS, JavaScript & Bootstrap, C"
+  "SQL, HTML, CSS, JavaScript, Bootstrap and C Programming."
 ];
 
 const roleEl = document.getElementById("roleText");
